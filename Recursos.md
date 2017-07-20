@@ -1,6 +1,8 @@
 # Recursos comunes
 
 
+[Geoposicionamiento por wifi (mirar los comentarios)](https://programarfacil.com/blog/arduino-blog/geolocalizacion-wifi-arduino-nodemcu/)
+
 ## Arduino UNO Wifi
 
 [Ejemplos](http://www.arduino.org/learning/tutorials/boards-tutorials/content/arduino-uno-wifi-tutorial?platform=hootsuite)
