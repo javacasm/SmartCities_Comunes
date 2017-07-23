@@ -20,8 +20,9 @@ Por ejemplo topic/sensor/# no devulverá todos los que tengan esa parte del tema
 
 [MQTT in arduino Uno Wifi](https://www.trojanc.co.za/2017/02/08/arduino-uno-wifi-mqtt/)
 
+[Referencia](https://iotasmarterplanet.wordpress.com/mqtt/publishing-sensor-data-from-arduino-to-raspberry-pi/)
 
-## Instalación de MQTT en Raspberry
+## Instalación de MQTT en Raspberry ([Referencia](https://iotasmarterplanet.wordpress.com/mqtt/installing-mosquitto-on-to-the-pi/))
 
 Instalamos el software Mosquitto (que implementa MQTT para Raspberry)
 
@@ -44,7 +45,7 @@ Y recibimos el contenido el suscriptor
 
 ![suscriptor](./images/MQTT_sub.png)
 
-## Publicando con Arduino
+## Publicando con Arduino  ([Referencia](https://iotasmarterplanet.wordpress.com/mqtt/mqtt-with-arduino-and-raspberry-pi/))
 
 Para publicar con arduino, primero configuraremos MQTT desde el interface web
 
@@ -70,3 +71,5 @@ Y luego usaremos el cliente ciao desde el código
      Ciao.write(CONNECTOR, TOPIC, String(data_value)); // pushes data into a channel called PIN_A1
 
     }
+
+## Instalación de Node-red ([Referencia](https://iotasmarterplanet.wordpress.com/mqtt/installing-node-red-onto-pi/))
