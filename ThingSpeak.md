@@ -124,3 +124,10 @@ Un código básico sería algo así:
         delay(lIntervaloMedida);
       }
     }
+
+
+
+
+Desde la Consola Wifi podemos ver la actividad de red
+
+![ThingSpeak error](./imagenes/ThingSpeak error.png)
