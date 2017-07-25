@@ -14,6 +14,8 @@ Podemos suscribirnos a todos los mensajes que comparten una rama de un tema usan
 
 Por ejemplo topic/sensor/# no devulverá todos los que tengan esa parte del tema (más detalles en la [documentación de mosquitto](http://mosquitto.org/man/mqtt-7.html))
 
+[Ejemplo de publicación de Topic](http://www.arduino.org/learning/tutorials/boards-tutorials/mqttsub)
+
 [Configurando Arduino y MQTT](https://ricveal.com/blog/arduino-mqtt/)
 
 [MQTT in arduino, raspberry y ESP](https://www.baldengineer.com/mqtt-tutorial.html)
