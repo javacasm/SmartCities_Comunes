@@ -39,17 +39,19 @@ Nos subscribimos a un tema con
 
 Desde otro terminal vamos a publicar un mensaje sobre este tema
 
-    mosquitto_pub -t ‘topic/test’ -m ‘Hello World!’
+    mosquitto_pub -t 'topic/test' -m 'Hello World!'
 
 Y recibimos el contenido el suscriptor
 
-![suscriptor](./images/MQTT_sub.png)
+![suscriptor](./imagenes/MQTT_sub.png)
 
 ## Publicando con Arduino  ([Referencia](https://iotasmarterplanet.wordpress.com/mqtt/mqtt-with-arduino-and-raspberry-pi/))
 
 Para publicar con arduino, primero configuraremos MQTT desde el interface web
 
-![Configuracion_MQTT_Arduino.png](./images/Configuracion_MQTT_Arduino.png)
+![Configuracion_MQTT_Arduino.png](./imagenes/Configuracion_MQTT_Arduino.png)
+
+¡¡¡ Es fundamental activar el tick !!!!
 
 Y luego usaremos el cliente ciao desde el código
 
@@ -72,4 +74,21 @@ Y luego usaremos el cliente ciao desde el código
 
     }
 
+## Recuperacion de mensajes MQTT
+
+    void lee_comandos(){
+       CiaoData data = Ciao.read(CONNECTOR, TOPIC_RIEGO_ON);
+       if (!data.isEmpty()){
+       const char* value = data.get(2);
+       Serial.print(data.get(1));
+       Serial.print(":");
+       Serial.print(value);
+       if(value[1]=='n'){
+        enciendeRiego();
+       }
+       else {
+        apagaRiego();
+       }
+
+    }
 ## Instalación de Node-red ([Referencia](https://iotasmarterplanet.wordpress.com/mqtt/installing-node-red-onto-pi/))
