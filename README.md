@@ -2,7 +2,21 @@
 
 ## [Presentación](./Presentacion.md)
 
+
+## Introducción
+1. ¿Qué es una Smart City?
+Smart de inteligente, de mejorar  las cosas pensando
+Cities de ciudadanía, de gente, de colectivos, de hacer las cosas mejor al compartir datos, información y conocimiento
+[Ejemplo](https://programarfacil.com/podcast/medir-consumo-electrico-arduino)
+1. Presentación de los talleres
+1. ¿Qué proyectos vamos a hacer?
+Breve descripción
+1. ¿Qué es Arduino?
+Hablamos de la plataforma
+Vemos la placa [Documentación](http://www.arduino.org/learning/getting-started/getting-started-with-arduino-uno-wifi  )
+
 ## [Kit de componentes](./Kit.md)
+
 
 ## [Componentes](./Componentes.md)
 
@@ -12,7 +26,7 @@
 
 Conectamos un led a la patilla 13 y lo encendemos y apagamos, es el "Hola Mundo" de Arduino!!
 
-![](./imagenes/1 Hello led_bb.png)
+![](./imagenes/1_Hello_led_bb.png)
 
 Detalles:
 * Pines de Arduino
@@ -25,7 +39,7 @@ Ejemplo: Base/1.Hello_Led
 
 Utilizamos el ejemplo anterior para enviar mensajes al pc. Podemos verlos desde el monitor serie: Menu Herramientas/Monitor Serie
 
-![](./imagenes/1 Hello led_bb.png)
+![](./imagenes/1_Hello_led_bb.png)
 
 Ejemplo: Base/2.Conexion_PC
 
@@ -33,7 +47,7 @@ Ejemplo: Base/2.Conexion_PC
 
 Conectamos una pantalla LCD y aprendemos a mostrar contenidos
 
-![](./imagenes/3 LCD_bb.png)
+![](./imagenes/3_LCD_bb.png)
 
 Detalles:
 * Pines Shield
@@ -45,7 +59,7 @@ Ejemplo: Base/3.LCD
 
 Usamos el sensor atmosférico BME280 para medir temperatura, presión y humedad ambiente
 
-![](./imagenes/4 Meteo BME280_bb.png)
+![](./imagenes/4_Meteo_BME280_bb.png)
 
 Ejemplo: Base/4_Meteo_BME280
 
@@ -59,7 +73,7 @@ Antes de continuar tenemos que aprender a utilizar el Wifi de Arduino
 
 Usamos el montaje anterior para publicar los datos en el servicio de la nube [ThingSpeak](./ThingSpeak.md)
 
-![](./imagenes/4 Meteo BME280_bb.png)
+![](./imagenes/4_Meteo_BME280_bb.png)
 
 Ejemplo: Base/Base_Publicacion_ThingSpeak
 
