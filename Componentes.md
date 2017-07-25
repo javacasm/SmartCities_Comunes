@@ -4,17 +4,15 @@
 
 * [ACS712: Sensor de corriente](./Componentes/ACS712.md)
 
-* [DHT22](./Componentes/DHT22.md)
+* [DHT22: Sensor de temperatura y humedad](./Componentes/DHT22.md)
 
-* [BME280](./Componentes/BME280.md)
+* [BME280: Sensor de temperatura, presión y humedad](./Componentes/BME280.md)
 
-* [LDR](./Componentes/LDR.md)
+* [LDR: sensor de luz](./Componentes/LDR.md)
 
-* [DHT22](./Componentes/)
+* [Sensor de Humedad de Suelo](./Componentes/Sensor_Humedad_Suelo.md)
 
-* [Sensor_Humedad_Suelo](./Componentes/Sensor_Humedad_Suelo.md)
-
-* [Sensor Lluvia](./Componentes/Sensor_lluvia.md)
+* [Sensor de Lluvia](./Componentes/Sensor_lluvia.md)
 
 ## Actuadores
 
