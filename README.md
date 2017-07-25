@@ -14,6 +14,11 @@ Conectamos un led a la patilla 13 y lo encendemos y apagamos, es el "Hola Mundo"
 
 ![](./imagenes/1 Hello led_bb.png)
 
+Detalles:
+* Pines de Arduino
+* Polaridad LED
+* Necesidad de resistencia
+
 Ejemplo: Base/1.Hello_Led
 
 ## Conexion_PC  
@@ -29,6 +34,10 @@ Ejemplo: Base/2.Conexion_PC
 Conectamos una pantalla LCD y aprendemos a mostrar contenidos
 
 ![](./imagenes/3 LCD_bb.png)
+
+Detalles:
+* Pines Shield
+* I2C
 
 Ejemplo: Base/3.LCD
 
