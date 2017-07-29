@@ -9,6 +9,11 @@ Detalles:
 * Polaridad LED
 * Necesidad de resistencia
 
+Sobre Arduino:
+* Una vez programado, se puede desconectar y el programa se guarda.
+* Al alimentarlo se ejecuta el último programa que se envió
+* Sólo puede tener un programa, cuando se reprograma se pierde el anterior
+
 Ejemplo: Base/1.Hello_Led
 
 ## Conexion_PC  
@@ -28,6 +33,10 @@ Conectamos una pantalla LCD y aprendemos a mostrar contenidos
 Detalles:
 * Pines Shield
 * I2C
+* Cada fabricante usa una dirección para su LCD.
+* Podemos usar las direcciones:
+    * 0x27
+    * 0x3F
 
 Ejemplo: Base/3.LCD
 
