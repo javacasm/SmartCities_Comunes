@@ -30,3 +30,5 @@
 * [Arduino Sensor Shield](./Componentes/Shield.md)
 
 * [Arduino](./Componentes/Arduino.md)
+
+* [RTC](./Componentes/RTC_1302.md)
