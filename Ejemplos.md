@@ -70,16 +70,9 @@ Usamos el servicio [MQTT](./mqtt.md) tanto para publicar, como para suscribirnos
 
 Ejemplo: Base/Publicacion_suscripcion_datos           
 
-## Obtención del Pronostico_tiempo                       
-
-Ejemplo que descarga el pronostico del tiempo desde el servicio WouldWeather
-
-
 ### Otros Ejemplos
 RTC               
 i2c_scanner     
-
-
 WiFiWebServer
 LCD_HelloWorld  
 Publicacion_suscripcion_datos_refactor  
