@@ -4,7 +4,7 @@
 
 * [DHT22: Sensor de temperatura y humedad](./Componentes/DHT22.md)
 
-  ![DHT22](./imagenes/DHT22.png)
+  ![DHT22](./imagenes/DHT-22.jpg)
 
 * [BME280: Sensor de temperatura, presión y humedad](./Componentes/BME280.md)
 
@@ -22,6 +22,9 @@
 
   ![Sensor de lluvia](./imagenes/Sensor_lluvia.png)
 
+* [Sensores de Gases](./Componentes/Sensores_Gases.md)
+
+  ![Sensores de gases](./imagenes/MQ-7.png)
 
 ## Actuadores
 
