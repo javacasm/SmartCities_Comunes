@@ -8,7 +8,7 @@ Se han buscado los componentes en tiendas que garanticen la calidad de los mismo
 
 Además se ha tenido en cuenta en la elección de los componentes que éstos tengan disponible toda la información necesaria para su correcto uso con el fin de que los usuarios puedan replicar los montajes en casa con mayor facilidad.
 
-## Kit para hacer el taller
+## [Kit para hacer el taller](http://inven.es/nuestros-kits/599-inven-kit-tecnologico-de-smart-cities-iot-basico.html)
 
 
 |Componente|Cantidad|URL
@@ -37,7 +37,7 @@ Además se ha tenido en cuenta en la elección de los componentes que éstos ten
 
 
 
-## Kit completo
+## [Kit completo](http://inven.es/nuestros-kits/600-inven-kit-tecnologico-de-smart-cities-iot.html)
 
 |Componente|Cantidad|URL
 |---|---|---
